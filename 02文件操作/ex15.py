@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # 读取文件
+# python ex15.py ex15_sample.txt
 '''
 要使用 python ex15.py ex15_sample.txt 来运行程序，如果没有这个参数，程序会出错
 如果被打开的文件中含有中文，open方法一定要加上 encoding="utf_8"，否则程序会出错

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # 参数、解包和变量
+# python ex13.py first 2nd 3rd
 
 '''
 之前我们运行Python脚本都没有添加命令行参数，如果运行这个脚本你只输了 python ex13.py那就错了
