@@ -7,7 +7,7 @@ print('abc')  在终端打印出指定的对象，一般是字符串
 print('a', 'b')  同时打印多个对象，中间用逗号分隔
 print('a', 'b', sep='-')  打印多个对象时，print()默认以空格分隔，sep参数允许用户自定义
 print('abc', end="")  默认情况下，print()打印完毕后会以换行符结尾，end参数允许用户自定义
-f"Hello {somevar}"  这是一个格式化字符串，把变量变到指定的位置
+f"Hello {somevar}"  这是一个格式化字符串，把变量放到指定的位置
 "this {}, that {}".format('abc', '123')  格式化字符串
 input([prompt])  提示用户进行输入，prompt是一个可选参数，用来设置提示的字符串
 
