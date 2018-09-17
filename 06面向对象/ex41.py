@@ -59,7 +59,7 @@ def convert(snippet, phrase):
         param_names.append(', '.join(random.sample(WORDS, param_count)))
 
     for sentence in snippet, phrase:  # 在一个for循环中遍历两个变量
-        result = sentence[:]  # [:]可以原样复制一个变量
+        result = sentence[:]  # [:]可以原样复制一个list
 
         # 替换类名称
         for word in class_names:
